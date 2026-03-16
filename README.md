@@ -238,8 +238,7 @@ Risoluzione di problemi di:
 wazuh-soc-home-lab
 │
 ├── README.md
-├── documentation
-│   └── Wazuh_SOC_Home_Lab_Project.pdf
+│  
 │
 ├── config
 │   └── ossec.conf
