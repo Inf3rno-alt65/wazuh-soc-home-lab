@@ -1,0 +1,15 @@
+## Lab Evidence
+
+Questa sezione contiene gli screenshot raccolti durante la realizzazione del SOC lab.  
+Le immagini documentano le principali fasi del progetto, tra cui l’architettura del laboratorio, la configurazione della rete, la simulazione dell’attacco e il rilevamento degli eventi di sicurezza all’interno della piattaforma SIEM.
+
+L’obiettivo di questa sezione è mostrare visivamente come è stato eseguito l’attacco simulato e come i log generati siano stati raccolti e analizzati dal SIEM.
+
+Attraverso questi screenshot è possibile osservare l’intero workflow del laboratorio:
+
+- Configurazione dell’ambiente e della rete
+- Simulazione dell’attacco dalla macchina attacker
+- Generazione degli eventi di sicurezza sulla macchina Windows
+- Raccolta dei log tramite l’agent di Wazuh
+- Rilevamento e generazione degli alert nel dashboard del SIEM
+
