@@ -90,6 +90,25 @@ Per eseguire l’attacco ho utilizzato **Hydra**, un tool molto utilizzato nei p
 Esempio di comando utilizzato durante il laboratorio:
 
 ```
+crackmapexec smb 192.168.56.102 -u admin -p passwords.txt
+```
+### Significato dei parametri
+
+| Parametro      | Descrizione                              |
+| -------------- | ---------------------------------------- |
+| crackmapexec   | tool utilizzato                          |
+| smb            | protocollo target                        |
+| 192.168.56.102 | indirizzo IP della macchina Windows      |
+| -u             | utente utilizzato per i tentativi di autenticazione | 
+| admin          | nome dell'account utilizzato per login   |
+| -p             | lista di password passata per brute force|
+| passwords-txt  | file contenten le password da provare    |
+
+Ho deciso di sfruttare le vulnerabilità del protocollo smb in quanto la macchina attaccata (Windows 11 HOME), non essendo professional non ha la possibilità di attivare l'RDP
+
+Il Siem rileva anche attacchi all'RDP, di seguito un comando di test con il tool hydra
+
+```
 hydra -l administrator -P passwords.txt rdp://192.168.56.102
 ```
 
@@ -101,8 +120,6 @@ hydra -l administrator -P passwords.txt rdp://192.168.56.102
 | -P             | wordlist di password                     |
 | rdp://         | protocollo target                        |
 | 192.168.56.102 | indirizzo IP della macchina Windows      |
-
-Questo comando genera numerosi tentativi di autenticazione verso la macchina Windows.
 
 ---
 
