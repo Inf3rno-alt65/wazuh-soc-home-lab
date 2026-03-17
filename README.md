@@ -50,7 +50,7 @@ Durante il progetto ho utilizzato le seguenti tecnologie:
 * **PowerShell**
 * **Windows Event Logs**
 * **Hydra (password brute-force tool)**
-* **crackmapexec**
+* **Crackmapexec**
 
 ---
 
@@ -84,7 +84,7 @@ Questo tipo di attacco genera numerosi tentativi di login falliti, che vengono r
 
 ---
 
-# Tool utilizzato: crackmapexec
+# Tool utilizzato: Crackmapexec
 
 Per eseguire l’attacco ho utilizzato **crackmapexec**, un tool molto utilizzato nei penetration test per effettuare attacchi brute-force su diversi protocolli.
 
