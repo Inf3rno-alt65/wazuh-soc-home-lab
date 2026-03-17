@@ -50,6 +50,7 @@ Durante il progetto ho utilizzato le seguenti tecnologie:
 * **PowerShell**
 * **Windows Event Logs**
 * **Hydra (password brute-force tool)**
+* **crackmapexec**
 
 ---
 
@@ -83,9 +84,9 @@ Questo tipo di attacco genera numerosi tentativi di login falliti, che vengono r
 
 ---
 
-# Tool utilizzato: Hydra
+# Tool utilizzato: crackmapexec
 
-Per eseguire l’attacco ho utilizzato **Hydra**, un tool molto utilizzato nei penetration test per effettuare attacchi brute-force su diversi protocolli.
+Per eseguire l’attacco ho utilizzato **crackmapexec**, un tool molto utilizzato nei penetration test per effettuare attacchi brute-force su diversi protocolli.
 
 Esempio di comando utilizzato durante il laboratorio:
 
@@ -246,10 +247,8 @@ wazuh-soc-home-lab
 ├── architecture
 │   └── soc-lab-diagram.png
 │
-└── screenshots
-    ├── wazuh-dashboard.png
-    ├── agent-connected.png
-    ├── brute-force-events.png
+└── lab.evidence
+
 ```
 
 ---
